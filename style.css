@@ -1,0 +1,55 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    background-color: #444;
+    padding: 0.5rem 0;
+    padding-right: 2rem;
+    height: 4rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.destinations {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #444;
+    color: white;
+}
